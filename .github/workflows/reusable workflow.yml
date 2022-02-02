@@ -13,11 +13,9 @@ on:
 jobs:
   name: ci_build_pipeline
 
-on:
   push:
     branches: [ dev ]   
 
-jobs:
     #This workflow contains a single job called "ci" 
   ci:
     runs-on: ubuntu-latest
