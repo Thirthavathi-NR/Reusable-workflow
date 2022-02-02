@@ -12,7 +12,7 @@ on:
 
 jobs:
   name: ci_build_pipeline
-
+  
   push:
     branches: [ dev ]   
 
