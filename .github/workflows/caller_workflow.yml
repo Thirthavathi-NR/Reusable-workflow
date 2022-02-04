@@ -1,0 +1,7 @@
+name: Call a reusable workflow
+
+on:
+
+jobs:
+  call-workflow:
+    uses: octo-org/example-repo/.github/workflows/workflow-A.yml@v1
