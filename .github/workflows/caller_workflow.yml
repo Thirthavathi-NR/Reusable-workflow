@@ -4,4 +4,4 @@ on:
 
 jobs:
   call-workflow:
-    uses: Reusable-workflow/.github/workflows/blank.yml
+    uses: Reusable-workflow/.github/workflows/reusable workflow.yml
