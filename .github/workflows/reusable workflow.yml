@@ -2,14 +2,7 @@ name: Reusable workflow example
 
 on:
   workflow_call:
-    inputs:
-      username:
-        required: true
-        type: string
-    secrets:
-      token:
-        required: true
-
+    
 jobs:
   name: ci_build_pipeline
   
@@ -59,10 +52,4 @@ jobs:
           #credentials type: 'apikey'
           #apikey: ${{ secrets.RT_APIKEY }}
           #args: u "dist/*" "/mu/repo/path/" --recursive=true --build-name=myawesomeappexample_job:
-    name: Pass input and secrets to my-action
-    runs-on: ubuntu-latest
-    steps:
-      - uses: ./.github/actions/my-action
-        with:
-          username: ${{ inputs.username }}
-          token: ${{ secrets.token }}
+   
