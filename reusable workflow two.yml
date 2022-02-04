@@ -21,6 +21,6 @@ jobs:
       output2: ${{ steps.step2.outputs.secondword }}
     steps:
       - id: step1
-        run: echo "::set-output name=firstword::hello"
+        run: echo "::set-output name=firstword::quest"
       - id: step2
-        run: echo "::set-output name=secondword::world"
+        run: echo "::set-output name=secondword::global"
