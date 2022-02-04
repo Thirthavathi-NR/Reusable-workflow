@@ -4,4 +4,4 @@ on:
 
 jobs:
   call-workflow:
-    uses: octo-org/example-repo/.github/workflows/workflow-A.yml@v1
+    uses: Reusable-workflow/.github/workflows/blank.yml
