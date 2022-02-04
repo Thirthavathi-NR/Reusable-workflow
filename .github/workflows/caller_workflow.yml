@@ -4,4 +4,5 @@ on:
 
 jobs:
   call-workflow:
-    uses: Reusable-workflow/.github/workflows/reusable workflow.yml
+    uses: https://github.com/Thirthavathi-NR/Reusable-workflow/blob/main/reusable%20workflow%20two.yml
+    
