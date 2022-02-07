@@ -7,14 +7,14 @@ name: Call a reusable workflow
 
 #jobs:
  # call-workflow:
-   # uses: Reusable-workflow/.github/workflows/blank.yml@v1
+   # uses: Reusable-workflow/.github/workflows/blank.yml@v2
   
 on:
   workflow_dispatch:
 
 jobs:
   job1:
-    uses: Reusable-workflow/.github/workflows/blank.yml@v1
+    uses: Reusable-workflow/.github/workflows/blank.yml@v2
 
   job2:
     runs-on: ubuntu-latest
