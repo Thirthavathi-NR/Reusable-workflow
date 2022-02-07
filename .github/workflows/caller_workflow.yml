@@ -3,5 +3,5 @@ on:
   workflow_dispatch:
 
 jobs:
-  uses: Reusable-workflow/reusable workflow two.yml
+  uses: Reusable-workflow/.github/workflows/blank.yml
     
