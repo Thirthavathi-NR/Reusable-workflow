@@ -4,12 +4,12 @@ on:
   workflow_dispatch:
 
 jobs:
-  job1:
+  call-workflow1:
     uses: Reusable-workflow/.github/workflows/blank.yml@v2
 
-  job2:
+  call-workflow2:
    #runs-on: ubuntu-latest
-    needs: job1
+    needs: call-workflow1
     uses: Reusable-workflow/.github/workflows/reusable workflow.yml@v1
    # steps:
       #- run: echo "hello world2"
