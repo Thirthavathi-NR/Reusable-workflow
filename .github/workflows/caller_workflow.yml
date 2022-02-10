@@ -1,14 +1,5 @@
 name: Call a reusable workflow
 
-#on:
- # pull_request:
-    #branches:
-      #- main
-
-#jobs:
- # call-workflow:
-   # uses: Reusable-workflow/.github/workflows/blank.yml@v2
-  
 on:
   workflow_dispatch:
 
@@ -20,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     needs: job1
     steps:
-      - run: echo completed
+      - run: echo "hello world2"
