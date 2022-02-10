@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
+
   call-workflow1:
     uses: Thirthavathi-NR/Reusable-workflow/.github/workflows/blank.yml@main
   call-workflow2:
