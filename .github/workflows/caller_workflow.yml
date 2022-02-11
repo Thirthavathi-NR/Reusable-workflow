@@ -7,6 +7,5 @@ jobs:
   call-workflow1:
     uses: Thirthavathi-NR/Reusable-workflow/.github/workflows/blank.yml@main
     
-  #call-workflow2:
-   # needs: call-workflow1
-   # uses: Thirthavathi-NR/Reusable-workflow/.github/workflows/workflow-two.yml@main
+  call-workflow2:
+    uses: Thirthavathi-NR/Reusable-workflow/.github/workflows/workflow-two.yml@main
