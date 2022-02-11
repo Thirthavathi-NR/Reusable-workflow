@@ -1,11 +1,11 @@
-name: Call a reusable workflow
-on:
-  workflow_dispatch:
+#name: Call a reusable workflow
+#on:
+  #workflow_dispatch:
 
-jobs:
+#jobs:
 
-  call-workflow1:
-    uses: Thirthavathi-NR/Reusable-workflow/.github/workflows/blank.yml@main
+  #call-workflow1:
+    #uses: Thirthavathi-NR/Reusable-workflow/.github/workflows/blank.yml@main
     
-  call-workflow2:
-    uses: Thirthavathi-NR/Reusable-workflow/.github/workflows/workflow-two.yml@main
+  #call-workflow2:
+    #uses: Thirthavathi-NR/Reusable-workflow/.github/workflows/workflow-two.yml@main
