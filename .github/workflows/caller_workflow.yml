@@ -9,4 +9,4 @@ jobs:
     
   call-workflow2:
     needs: call-workflow1
-    uses: Thirthavathi-NR/Reusable-workflow/.github/workflows/reusable workflow.yml@main
+    uses: Thirthavathi-NR/Reusable-workflow/.github/workflows/workflow-two.yml@main
